@@ -36,6 +36,22 @@ body{
     
 }
 
+.title_recipes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+    background-color: #4f5f76;
+    color: #FAF9F6;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #a4893d;
+    
+    padding: 5px;
+    
+}
+
 ul {
     list-style-position: inside;
 }
@@ -66,4 +82,38 @@ ol {
     border-style: dotted;
     border-width: 7px;
 
+ }
+
+ .flex-container{
+    display:flex;
+ }
+
+ .flex-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 10px;
+
+    background-color: #4f5f76;
+    color: #FAF9F6;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: #a4893d;
+    
+    padding: 5px;
+    margin-left: 10px;
+
+    flex:1 1 0;
+ }
+
+
+ .home-button{
+    border-style: solid;
+    border-color: #a4893d;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #4f5f76;
+    color: blue;
  }
